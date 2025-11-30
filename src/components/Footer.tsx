@@ -6,7 +6,7 @@ export const Footer: React.FC = () => {
     <footer className="w-full bg-white text-gray-800 py-14 px-6 border-t border-gray-200">
       <div className="max-w-7xl mx-auto text-center">
         
-        {/* --- Logo chữ AI Wiz Kids --- */}
+        {/* Logo */}
         <div className="mb-8 flex flex-col items-center justify-center leading-tight">
           <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">
             <span className="text-[#00B4FF]">AI</span>
@@ -23,8 +23,9 @@ export const Footer: React.FC = () => {
           </p>
         </div>
 
-        {/* --- Liên hệ --- */}
+        {/* Liên hệ */}
         <div className="flex flex-col md:flex-row justify-center items-center gap-6 text-gray-600 mt-6">
+          
           <a
             href="https://www.awk.edu.vn"
             className="flex items-center gap-2 hover:text-[#00B4FF] transition-colors"
@@ -36,7 +37,7 @@ export const Footer: React.FC = () => {
           <span className="hidden md:inline text-gray-400">|</span>
 
           <a
-            href="mailto:contact@awk.edu.vn"
+            href="mailto:info@awk.edu.vn"
             className="flex items-center gap-2 hover:text-[#00B4FF] transition-colors"
           >
             <MailIcon className="w-5 h-5" />
@@ -45,6 +46,7 @@ export const Footer: React.FC = () => {
 
           <span className="hidden md:inline text-gray-400">|</span>
 
+          {/* Phone 1 */}
           <a
             href="tel:0932048881"
             className="flex items-center gap-2 hover:text-[#00B4FF] transition-colors"
@@ -53,30 +55,17 @@ export const Footer: React.FC = () => {
             093 204 8881
           </a>
 
+          {/* Phone 2 */}
           <a
-<<<<<<< HEAD
             href="tel:0797539591"
             className="flex items-center gap-2 hover:text-[#00B4FF] transition-colors"
           >
             <PhoneIcon className="w-5 h-5" />
-=======
-            href="tel:0932048881"
-            className="flex items-center gap-2 hover:text-[#00B4FF] transition-colors"
-          >
-            <PhoneIcon className="w-5 h-5" />
-            093 204 8881
-          </a>
-                    <a
-            href="tel:0797539591"
-            className="flex items-center gap-2 hover:text-[#00B4FF] transition-colors"
-          >
-            <PhoneIcon className="w-5 h-5" />
->>>>>>> bc7dc6cfdba671b788de3f24f8a7cef361de26c7
             079 753 95 91
           </a>
         </div>
 
-        {/* --- Bản quyền & HYPER ONE --- */}
+        {/* Bản quyền */}
         <div className="text-gray-500 text-sm mt-10">
           <p>© 2025 AI Wiz Kids. All rights reserved.</p>
 
