@@ -5,7 +5,7 @@ export const Header: React.FC = () => {
     <header className="w-full border-b border-gray-200 bg-white/90 backdrop-blur-md sticky top-0 z-50 shadow-[0_2px_15px_rgba(0,0,0,0.05)]">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-4 md:px-10 py-3">
         
-        {/* --- Logo thương hiệu AI Wiz Kids --- */}
+        {/* Logo thương hiệu AI Wiz Kids */}
         <div className="flex flex-col leading-tight select-none">
           <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight">
             <span className="text-[#00B4FF]">AI</span>
@@ -17,20 +17,22 @@ export const Header: React.FC = () => {
           </span>
         </div>
 
-        {/* --- Menu chính --- */}
+        {/* Menu chính */}
         <nav className="hidden md:flex items-center gap-8 text-gray-700 font-semibold">
           <a
-            href="#mission"
+            href="#our-story"
             className="hover:text-[#00B4FF] transition-colors"
           >
-            Sứ mệnh
+            Về chúng tôi
           </a>
+
           <a
             href="#learning-paths"
             className="hover:text-[#00B4FF] transition-colors"
           >
             Chương trình học
           </a>
+
           <a
             href="#features"
             className="hover:text-[#00B4FF] transition-colors"
@@ -39,7 +41,7 @@ export const Header: React.FC = () => {
           </a>
         </nav>
 
-        {/* --- Powered by HYPER ONE --- */}
+        {/* Powered by HYPER ONE */}
         <div className="hidden lg:flex items-center gap-2 group">
           <span className="text-sm text-gray-600 font-medium group-hover:text-gray-800 transition-colors">
             Powered by
@@ -52,6 +54,7 @@ export const Header: React.FC = () => {
             <span className="text-gray-900 text-lg">ONE</span>
           </div>
         </div>
+
       </div>
     </header>
   );

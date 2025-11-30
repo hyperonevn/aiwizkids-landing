@@ -1,48 +1,55 @@
 import React from 'react';
 
-// --- Import Header và các section chính ---
+// Core sections
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { About } from './components/About';
+import OurStory from './components/OurStory';
+import TeamSection from './components/TeamSection';
+import { MissionVision } from './components/MissionVision';
 import { LearningPaths } from './components/LearningPaths';
 import { Features } from './components/Features';
 import { Dashboard } from './components/Dashboard';
 import { RegistrationForm } from './components/RegistrationForm';
-import { MissionVision } from './components/MissionVision';
 import { PartnerSection } from './components/PartnerSection';
 import { Footer } from './components/Footer';
 
 export function App() {
   return (
     <div className="w-full min-h-screen bg-white overflow-x-hidden">
-      {/* --- Header HYPER ONE --- */}
+
       <Header />
 
-      {/* --- Hero Section --- */}
+      {/* 1. Hero */}
       <Hero />
 
-      {/* --- Giới thiệu về chương trình --- */}
+      {/* 2. Giới thiệu ngắn */}
       <About />
 
-      {/* --- Lộ trình học --- */}
-      <LearningPaths />
+      {/* 3. Câu chuyện AI Wiz Kids */}
+      <OurStory />
 
-      {/* --- Tính năng nổi bật --- */}
-      <Features />
+      {/* 4. Đội ngũ sáng lập */}
+      <TeamSection />
 
-      {/* --- Dashboard mô phỏng học tập --- */}
-      <Dashboard />
-
-      {/* --- Form đăng ký --- */}
-      <RegistrationForm />
-
-      {/* --- Sứ mệnh & Tầm nhìn --- */}
+      {/* 5. Sứ mệnh và Tầm nhìn */}
       <MissionVision />
 
-      {/* --- Đối tác công nghệ: HYPER ONE --- */}
+      {/* 6. Lộ trình học */}
+      <LearningPaths />
+
+      {/* 7. Tính năng nổi bật */}
+      <Features />
+
+      {/* 8. Dashboard */}
+      <Dashboard />
+
+      {/* 9. Form đăng ký */}
+      <RegistrationForm />
+
+      {/* 10. Đối tác */}
       <PartnerSection />
 
-      {/* --- Footer --- */}
       <Footer />
     </div>
   );
