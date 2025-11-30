@@ -30,7 +30,7 @@ const founders: Founder[] = [
      "Giáo viên mầm non nhiều năm kinh nghiệm, đồng sáng lập – COO tại HAO KIM THUY COMPANY. Kết hợp chuyên môn sư phạm và tư duy vận hành để xây dựng môi trường giáo dục bền vững, ấm áp, hiệu quả và luôn đặt sự phát triển của trẻ em lên hàng đầu.",
 
     details:
-      "Trương Thị Hoàng Ngọc là giáo viên mầm non giàu kinh nghiệm, được phụ huynh và học sinh yêu mến bởi sự tận tâm và sự đồng hành sâu sắc trong quá trình phát triển của trẻ. Là Đồng sáng lập – COO Hao Kim Thùy Company, cô có nhiều kinh nghiệm trong vận hành công ty và xây dựng quy trình. Cô kết hợp giữa chuyên môn sư phạm và tư duy vận hành để tạo nên các quy trình giáo dục mượt mà, chuẩn mực nhưng vẫn giữ được sự thân thiện, ấm áp — phù hợp hoàn hảo với đặc thù trẻ nhỏ. Tại AI WIZ KIDS, cô đóng vai trò định hình phương pháp tiếp cận trẻ, đảm bảo môi trường học tập an toàn – giàu cảm hứng – hiệu quả, giúp trẻ tự tin bước vào thế hệ đầu tiên của kỷ nguyên AI.",
+      "Trương Thị Hoàng Ngọc là giáo viên mầm non giàu kinh nghiệm, được phụ huynh và học sinh yêu mến bởi sự tận tâm và sự đồng hành sâu sắc trong quá trình phát triển của trẻ. Là Đồng sáng lập – COO HAO KIM THUY COMPANY, cô có nhiều kinh nghiệm trong vận hành công ty và xây dựng quy trình. Cô kết hợp giữa chuyên môn sư phạm và tư duy vận hành để tạo nên các quy trình giáo dục mượt mà, chuẩn mực nhưng vẫn giữ được sự thân thiện, ấm áp — phù hợp hoàn hảo với đặc thù trẻ nhỏ. Tại AI WIZ KIDS, cô đóng vai trò định hình phương pháp tiếp cận trẻ, đảm bảo môi trường học tập an toàn – giàu cảm hứng – hiệu quả, giúp trẻ tự tin bước vào thế hệ đầu tiên của kỷ nguyên AI.",
   },
   {
     name: "Lữ Minh Trí",
