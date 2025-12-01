@@ -134,7 +134,7 @@ export function Hero() {
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed max-w-xl">
-              Chương trình giáo dục AI toàn diện cho trẻ 4–17 tuổi,
+              Chương trình giáo dục AI toàn diện cho trẻ 4–16 tuổi,
               giúp các em làm chủ công nghệ thông qua dự án thực tế,
               tư duy sáng tạo và khả năng giải quyết vấn đề.
             </p>

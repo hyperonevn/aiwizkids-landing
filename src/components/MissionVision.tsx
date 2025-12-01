@@ -12,7 +12,7 @@ const ITEMS = [
   {
     icon: EyeIcon,
     title: "Tầm nhìn",
-    text: "Trở thành nền tảng giáo dục công nghệ hàng đầu cho trẻ 4–17 tuổi tại Việt Nam và khu vực Đông Nam Á.",
+    text: "Trở thành nền tảng giáo dục công nghệ hàng đầu cho trẻ 4–16 tuổi tại Việt Nam và khu vực Đông Nam Á.",
     bg: ["#00B4FF", "#5AE0FF"],
     border: "border-[#00B4FF]/20",
   },

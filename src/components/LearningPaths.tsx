@@ -26,7 +26,7 @@ export function LearningPaths() {
       gradient: 'from-[#00B4FF] to-[#5AE0FF]'
     },
     {
-      age: '12–17 tuổi',
+      age: '12–16 tuổi',
       title: 'Làm chủ công nghệ AI',
       icon: RocketIcon,
       description:
