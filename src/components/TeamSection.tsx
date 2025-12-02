@@ -27,9 +27,9 @@ const founders: Founder[] = [
     avatar: "https://pub-f826d697a1694a0dac74ab8db71a8d8d.r2.dev/truongthihoangngoc.jpg",
     website: "https://ngoctruong.profile.io.vn",
     summary:
-      "Nhiều năm kinh nghiệm trong môi trường mầm non quốc tế, am hiểu hành vi – tâm lý trẻ. Định hình mô hình giáo dục nhân văn và hiện đại cho AI WIZ KIDS.",
+      "Nhiều năm kinh nghiệm trong môi trường mầm non quốc tế, am hiểu hành vi tâm lý trẻ. Định hình mô hình giáo dục nhân văn và hiện đại cho AI WIZ KIDS.",
     details:
-      "Trương Thị Hoàng Ngọc có nhiều năm kinh nghiệm làm việc tại các trường Mầm non Quốc tế, nơi cô phát triển chuyên môn về quản lý, xây dựng chương trình nuôi dưỡng – giáo dục và đồng hành tâm lý cùng trẻ.\n\nCô từng giảng dạy ở cấp 1 và cấp 2, sở hữu góc nhìn xuyên suốt về hành trình phát triển của trẻ — từ nhận thức, cảm xúc đến kỹ năng xã hội.\n\nVới vai trò COO của AI WIZ KIDS, cô tập trung xây dựng môi trường học tập an toàn – tôn trọng – cá nhân hoá, hướng đến việc nuôi dưỡng tự tin và tiềm năng tự nhiên của mỗi em."
+      "Trương Thị Hoàng Ngọc có nhiều năm kinh nghiệm làm việc tại các trường Mầm non Quốc tế, nơi cô phát triển chuyên môn về quản lý, xây dựng chương trình nuôi dưỡng giáo dục và đồng hành tâm lý cùng trẻ.\n\nCô từng giảng dạy ở cấp 1 và cấp 2, sở hữu góc nhìn xuyên suốt về hành trình phát triển của trẻ từ nhận thức, cảm xúc đến kỹ năng xã hội.\n\nVới vai trò COO của AI WIZ KIDS, cô tập trung xây dựng môi trường học tập an toàn tôn trọng cá nhân hoá, hướng đến việc nuôi dưỡng tự tin và tiềm năng tự nhiên của mỗi em."
   },
 
   {
@@ -40,7 +40,7 @@ const founders: Founder[] = [
     summary:
       "Nhiều năm làm việc tại Nhật Bản và Singapore trong các vai trò thiết kế hệ thống và quản lý dự án. Kinh nghiệm quốc tế giúp anh xây dựng hướng tiếp cận công nghệ ứng dụng trong giáo dục.",
     details:
-      "Anh có nhiều năm làm việc tại Nhật Bản và Singapore, đảm nhiệm các vai trò như Trưởng Thiết Kế, Quản Lý Dự Án và Trợ lý Chủ tịch tại Futher Up (Oka Bain Japan) — môi trường đòi hỏi tư duy hệ thống, tính kỷ luật và khả năng tối ưu hoá liên tục.\n\nAnh đồng thời là cựu sáng lập & Giám đốc quốc gia Oka&Co Interior Singapore, trực tiếp xây dựng đội ngũ và triển khai nhiều dự án thiết kế – công nghệ tại Đông Nam Á.\n\nSau khi trở về Việt Nam, anh sáng lập HYPER ONE tập trung vào các giải pháp ứng dụng trí tuệ nhân tạo và tự động hoá tư duy, đặc biệt trong lĩnh vực giáo dục.\n\nKinh nghiệm quốc tế cùng tư duy sản phẩm thực tiễn giúp anh định hình AI WIZ KIDS theo hướng công nghệ ứng dụng — thiết thực, hiện đại và tối ưu trải nghiệm học tập cho trẻ."
+      "Anh có nhiều năm làm việc tại Nhật Bản và Singapore, đảm nhiệm các vai trò như Trưởng Thiết Kế, Quản Lý Dự Án và Trợ lý Chủ tịch tại Futher Up (Oka Bain Japan) Môi trường đòi hỏi tư duy hệ thống, tính kỷ luật và khả năng tối ưu hoá liên tục.\n\nAnh đồng thời là cựu sáng lập & Giám đốc quốc gia Oka&Co Interior Singapore, trực tiếp xây dựng đội ngũ và triển khai nhiều dự án thiết kế công nghệ tại Đông Nam Á.\n\nSau khi trở về Việt Nam, anh sáng lập HYPER ONE tập trung vào các giải pháp ứng dụng trí tuệ nhân tạo và tự động hoá tư duy, đặc biệt trong lĩnh vực giáo dục.\n\nKinh nghiệm quốc tế cùng tư duy sản phẩm thực tiễn giúp anh định hình AI WIZ KIDS theo hướng công nghệ ứng dụng thiết thực, hiện đại và tối ưu trải nghiệm học tập cho trẻ."
   }
 ];
 
@@ -53,8 +53,8 @@ const TeamSection: React.FC = () => {
         Đội ngũ sáng lập
       </h2>
 
-      {/* GRID */}
-      <div className="grid md:grid-cols-3 gap-14 max-w-7xl mx-auto px-10">
+      {/* GRID RESPONSIVE */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 max-w-7xl mx-auto px-6 md:px-10">
         {founders.map((f, i) => (
           <div
             key={i}
@@ -64,25 +64,26 @@ const TeamSection: React.FC = () => {
               rounded-3xl
               bg-white
               border border-gray-200
-              p-10
+              p-8
               text-center
               shadow-md
-              transition-all duration-500
-              hover:shadow-2xl
-              hover:-translate-y-3
-              hover:scale-[1.05]
+              transition-all duration-300
+              hover:shadow-xl
+              active:scale-[0.97]
             "
           >
             <img
               src={f.avatar}
-              className="w-44 h-44 mx-auto rounded-full object-cover mb-6 shadow"
+              className="w-40 h-40 mx-auto rounded-full object-cover mb-6 shadow"
             />
 
-            <h3 className="text-2xl font-bold whitespace-nowrap">
+            <h3 className="text-xl md:text-2xl font-bold whitespace-nowrap">
               {f.name}
             </h3>
 
-            <p className="text-gray-600 mt-1 font-medium">{f.role}</p>
+            <p className="text-gray-600 mt-1 font-medium text-sm md:text-base">
+              {f.role}
+            </p>
           </div>
         ))}
       </div>
@@ -90,16 +91,30 @@ const TeamSection: React.FC = () => {
       {/* MODAL */}
       {selected && (
         <div
-          className="fixed inset-0 bg-black/50 backdrop-blur-sm flex justify-center items-center z-50"
+          className="fixed inset-0 bg-black/50 backdrop-blur-sm flex justify-center items-center z-50 p-4"
           onClick={() => setSelected(null)}
         >
           <div
-            className="bg-white max-w-5xl w-full rounded-3xl p-12 relative shadow-2xl flex gap-10"
+            className="
+              bg-white 
+              w-full 
+              max-w-5xl 
+              rounded-2xl 
+              p-6 sm:p-10 
+              relative 
+              shadow-2xl 
+              flex 
+              flex-col 
+              md:flex-row 
+              gap-6 md:gap-10
+              max-h-[90vh]
+              overflow-y-auto
+            "
             onClick={(e) => e.stopPropagation()}
           >
             {/* CLOSE */}
             <button
-              className="absolute top-6 right-6 text-3xl text-gray-500 hover:text-black"
+              className="absolute top-4 right-4 text-3xl text-gray-500 hover:text-black"
               onClick={() => setSelected(null)}
             >
               ×
@@ -107,16 +122,27 @@ const TeamSection: React.FC = () => {
 
             <img
               src={selected.avatar}
-              className="w-64 h-64 rounded-2xl object-cover shadow-lg"
+              className="
+                w-40 h-40 
+                sm:w-56 sm:h-56 
+                md:w-64 md:h-64 
+                rounded-2xl 
+                object-cover 
+                shadow-lg 
+                mx-auto md:mx-0
+              "
             />
 
             <div className="flex-1">
-              <h3 className="text-4xl font-extrabold">{selected.name}</h3>
-              <p className="text-red-600 font-semibold text-xl mt-1">
+              <h3 className="text-3xl md:text-4xl font-extrabold">
+                {selected.name}
+              </h3>
+
+              <p className="text-red-600 font-semibold text-lg md:text-xl mt-1">
                 {selected.role}
               </p>
 
-              <p className="mt-6 text-gray-700 whitespace-pre-line leading-relaxed text-[16.5px]">
+              <p className="mt-6 text-gray-700 whitespace-pre-line leading-relaxed text-[15.5px] md:text-[16.5px]">
                 {selected.details}
               </p>
             </div>
