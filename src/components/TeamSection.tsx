@@ -16,9 +16,9 @@ const founders: Founder[] = [
     avatar: "https://pub-f826d697a1694a0dac74ab8db71a8d8d.r2.dev/kieuduyan.jpg",
     website: "https://andy.profile.io.vn",
     summary:
-      "Hơn 10 năm làm việc tại CyberAgent Nhật Bản, tích lũy tư duy hệ thống và kinh nghiệm vận hành công nghệ. Niềm đam mê giáo dục thôi thúc anh xây dựng môi trường nuôi dưỡng tư duy số cho trẻ.",
+      "Hơn 10 năm làm việc trong môi trường công nghệ Nhật Bản, tích lũy tư duy hệ thống và kinh nghiệm vận hành. Đam mê giáo dục thúc đẩy anh xây dựng môi trường nuôi dưỡng tư duy số cho trẻ.",
     details:
-      "Kiều Duy An có hơn 10 năm làm việc tại công ty con của tập đoàn CyberAgent Nhật Bản tại Việt Nam, nơi anh đảm nhiệm vai trò Trưởng nhóm hỗ trợ nghiệp vụ Internet. Môi trường công nghệ cao của Nhật giúp anh tiếp cận nhiều công nghệ tiên tiến và tham gia vận hành các dự án phát triển nền tảng số và quảng cáo trực tuyến phục vụ thị trường Nhật Bản.\n\nNiềm đam mê giáo dục cùng khát vọng phát triển thế hệ trẻ trong kỷ nguyên số đã đưa anh đến AI WIZ KIDS. Anh mong muốn tạo ra một môi trường giúp trẻ hình thành tư duy số, tư duy công nghệ và khả năng ứng dụng AI từ sớm.\n\nTầm nhìn của anh là góp phần xây dựng thế hệ công dân số Việt Nam tự tin, thông minh và sẵn sàng bước vào tương lai của trí tuệ nhân tạo."
+      "Kiều Duy An có hơn 10 năm làm việc trong môi trường công nghệ hướng đến thị trường Nhật Bản, nơi anh đảm nhiệm vai trò quản lý và hỗ trợ vận hành các nền tảng số.\n\nQuá trình làm việc giúp anh hình thành tư duy hệ thống, sự kỷ luật và khả năng tối ưu quy trình. Từ nền tảng đó, anh mong muốn ứng dụng công nghệ vào giáo dục theo hướng thực tiễn, dễ tiếp cận và bền vững.\n\nAnh hướng đến việc góp phần xây dựng một thế hệ trẻ có khả năng thích nghi với môi trường số và tư duy công nghệ từ sớm."
   },
 
   {
@@ -27,9 +27,9 @@ const founders: Founder[] = [
     avatar: "https://pub-f826d697a1694a0dac74ab8db71a8d8d.r2.dev/truongthihoangngoc.jpg",
     website: "https://ngoctruong.profile.io.vn",
     summary:
-      "Nhiều năm kinh nghiệm trong môi trường mầm non quốc tế, am hiểu hành vi tâm lý trẻ. Định hình mô hình giáo dục nhân văn và hiện đại cho AI WIZ KIDS.",
+      "Nhiều năm kinh nghiệm trong môi trường mầm non quốc tế, am hiểu tâm lý và hành vi trẻ. Tập trung xây dựng mô hình giáo dục nhân văn và hiện đại.",
     details:
-      "Trương Thị Hoàng Ngọc có nhiều năm kinh nghiệm làm việc tại các trường Mầm non Quốc tế, nơi cô phát triển chuyên môn về quản lý, xây dựng chương trình nuôi dưỡng giáo dục và đồng hành tâm lý cùng trẻ.\n\nCô từng giảng dạy ở cấp 1 và cấp 2, sở hữu góc nhìn xuyên suốt về hành trình phát triển của trẻ từ nhận thức, cảm xúc đến kỹ năng xã hội.\n\nVới vai trò COO của AI WIZ KIDS, cô tập trung xây dựng môi trường học tập an toàn tôn trọng cá nhân hoá, hướng đến việc nuôi dưỡng tự tin và tiềm năng tự nhiên của mỗi em."
+      "Trương Thị Hoàng Ngọc có nhiều năm làm việc trong hệ thống giáo dục mầm non quốc tế, tham gia quản lý và xây dựng chương trình học.\n\nCô từng giảng dạy ở nhiều cấp học, từ đó có góc nhìn toàn diện về sự phát triển của trẻ ở cả nhận thức, cảm xúc và kỹ năng xã hội.\n\nVới vai trò COO, cô tập trung xây dựng môi trường học tập an toàn, tôn trọng sự khác biệt và khuyến khích phát triển tiềm năng tự nhiên của mỗi học sinh."
   },
 
   {
@@ -38,9 +38,9 @@ const founders: Founder[] = [
     avatar: "https://pub-f826d697a1694a0dac74ab8db71a8d8d.r2.dev/luminhtri.jpg",
     website: "https://minhtri.profile.io.vn",
     summary:
-      "Nhiều năm làm việc tại Nhật Bản và Singapore trong các vai trò thiết kế hệ thống và quản lý dự án. Kinh nghiệm quốc tế giúp anh xây dựng hướng tiếp cận công nghệ ứng dụng trong giáo dục.",
+      "Kinh nghiệm làm việc trong môi trường quốc tế với vai trò thiết kế hệ thống và quản lý dự án. Tập trung vào ứng dụng công nghệ theo hướng thực tiễn và tối ưu vận hành.",
     details:
-      "Anh có nhiều năm làm việc tại Nhật Bản và Singapore, đảm nhiệm các vai trò như Trưởng Thiết Kế, Quản Lý Dự Án và Trợ lý Chủ tịch tại Futher Up (Oka Bain Japan) Môi trường đòi hỏi tư duy hệ thống, tính kỷ luật và khả năng tối ưu hoá liên tục.\n\nAnh đồng thời là cựu sáng lập & Giám đốc quốc gia Oka&Co Interior Singapore, trực tiếp xây dựng đội ngũ và triển khai nhiều dự án thiết kế công nghệ tại Đông Nam Á.\n\nSau khi trở về Việt Nam, anh sáng lập HYPER ONE tập trung vào các giải pháp ứng dụng trí tuệ nhân tạo và tự động hoá tư duy, đặc biệt trong lĩnh vực giáo dục.\n\nKinh nghiệm quốc tế cùng tư duy sản phẩm thực tiễn giúp anh định hình AI WIZ KIDS theo hướng công nghệ ứng dụng thiết thực, hiện đại và tối ưu trải nghiệm học tập cho trẻ."
+      "Anh có nhiều năm làm việc tại Nhật Bản và Singapore trong các vai trò liên quan đến thiết kế hệ thống, quản lý dự án và vận hành.\n\nQuá trình làm việc trong môi trường yêu cầu tính kỷ luật và tối ưu cao giúp anh hình thành cách tiếp cận công nghệ dựa trên cấu trúc, hiệu suất và khả năng mở rộng.\n\nKhi tham gia đồng sáng lập dự án, anh tập trung xây dựng nền tảng kỹ thuật vững chắc, ưu tiên tính ổn định, đơn giản và dễ triển khai.\n\nĐịnh hướng của anh là ứng dụng công nghệ theo cách thực tế, hỗ trợ giáo viên và học sinh thay vì làm phức tạp trải nghiệm học tập."
   }
 ];
 
@@ -53,7 +53,6 @@ const TeamSection: React.FC = () => {
         Đội ngũ sáng lập
       </h2>
 
-      {/* GRID RESPONSIVE */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 max-w-7xl mx-auto px-6 md:px-10">
         {founders.map((f, i) => (
           <div
@@ -88,7 +87,6 @@ const TeamSection: React.FC = () => {
         ))}
       </div>
 
-      {/* MODAL */}
       {selected && (
         <div
           className="fixed inset-0 bg-black/50 backdrop-blur-sm flex justify-center items-center z-50 p-4"
@@ -112,7 +110,6 @@ const TeamSection: React.FC = () => {
             "
             onClick={(e) => e.stopPropagation()}
           >
-            {/* CLOSE */}
             <button
               className="absolute top-4 right-4 text-3xl text-gray-500 hover:text-black"
               onClick={() => setSelected(null)}
